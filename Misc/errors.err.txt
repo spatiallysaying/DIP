@@ -1,0 +1,56 @@
+Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:25:58) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============= RESTART: F:\waterbody\Sreedhar\Water_Extraction.py =============
+Scene LC81440472019008LGN00 center time is 2019-01-08 05:09:08
+Executing: SetNull F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B2.tif F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B2.tif F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L11.tif "VALUE = 0"
+Start Time: Fri Oct 11 13:47:07 2019
+Succeeded at Fri Oct 11 13:47:13 2019 (Elapsed Time: 6.53 seconds)
+IOError: [Errno 13] File Not available or accessible
+Scene LC81440472019008LGN00 center time is 2019-01-08 05:09:08
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B2.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L11.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_2aff6327_fa2b_4dec_b0e3_0794521f356e_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B2_TOA_Ref.tif
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B3.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L12.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_f4f756d0_f77e_4541_af8b_7220d1110134_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B3_TOA_Ref.tif
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B4.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L11.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_f4187e13_dbcd_45dc_a467_8d867a370f0f_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B4_TOA_Ref.tif
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B5.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L12.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_52a08f40_7082_4d1e_8566_13a8f1bf5fe3_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B5_TOA_Ref.tif
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B6.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L11.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_9d9fbead_12e3_475a_90c1_40994372eee4_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B6_TOA_Ref.tif
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\LC08_L1TP_144047_20190108_20190130_01_T1_B7.tif
+after null raster
+F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\SetNull_LC08_L12.tif
+after toa ref
+C:\Users\e442282\AppData\Local\ESRI\Desktop10.6\SpatialAnalyst\divide_a0ffef5a_602a_470b_b750_b48054ed5f3a_31710523162924.tif
+Saved output at F:\waterbody\Jagan\maddela_cheruvu\LC81440472019008LGN00\ref\LC08_L1TP_144047_20190108_20190130_01_T1_B7_TOA_Ref.tif
+Scene LC81440472019008LGN00 center time is 2019-01-08 05:09:08
+LC81440472019008LGN00
+
+Traceback (most recent call last):
+  File "F:\waterbody\Sreedhar\Water_Extraction.py", line 918, in <module>
+    extractWaterbodies(full_path+'\\output',meta_path,r'')
+  File "F:\waterbody\Sreedhar\Water_Extraction.py", line 803, in extractWaterbodies
+    Band2 = Raster(toa_list[0])#Input_Image + "/Band_2"B
+IndexError: list index out of range
+>>> 
